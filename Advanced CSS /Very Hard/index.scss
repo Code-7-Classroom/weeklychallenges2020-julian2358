@@ -1,0 +1,47 @@
+body, html{
+    margin: auto;
+    padding: 0;
+    width: 960px;
+    border: 2px solid black;
+}
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    font-size: 40px;
+    border: 2px solid black;
+    background-color: grey;
+    padding-bottom: 35px;
+}
+.div-column_columneffect {
+    float: left;
+    width: 33.33%;
+    margin: 40px;
+    padding: 30px;
+
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+  
+  p{
+      margin: 0px;
+      display: inline;
+  }
+
+  #img-1{
+      position: relative;
+      top: 80px;
+  }
+
+  #img-2{
+      position: relative;
+      right: 300px;
+      top: 80px;
+  }

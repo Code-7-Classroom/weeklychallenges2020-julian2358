@@ -1,0 +1,78 @@
+@import "styles.css";
+
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    
+  }
+  #appl{
+    padding: 0;
+    margin: 0;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    
+  }
+  
+  main {
+    width: 2000px;
+    margin: auto;
+    display: grid;
+    grid-template-areas: "product1 product2" 
+                         "product3 product4" 
+                         "product5 product6" 
+                         "product7 product8";
+    grid-template-columns: 10fr 10fr;
+    grid-template-rows: 400px 400px 400px 400px -600px; }
+  
+  div {
+    border: 2px solid black; }
+  
+  #price {
+    padding: 5px;
+    color: green; }
+
+  .one{
+      grid-area: product1;
+  }
+  .two{
+      grid-area: product2;
+  }
+.three{
+    grid-area: product3;
+}
+.four{
+    grid-area: prouduct4;
+}
+.five{
+    grid-area: product5;
+}
+.six{
+    grid-area: product6;
+}
+.seven{
+    grid-area: product7;
+}
+.eight{
+    grid-area: prouduct8;
+}
+
+$colors: (
+ one: #9400D3, 
+ two: #4B0082, 
+ three: #0000FF,
+ four: #00FF00,
+ five: #FFFF00, 
+ six: #FF7F00, 
+ seven: #FF0000,
+ eight: white
+);
+
+  @each $name, $color in $colors {
+      
+          .#{$name}{
+            background-color: $color;
+          }
+      
+  }
