@@ -1,0 +1,106 @@
+body,html{
+    background-color: #191414;
+    font-family: 'Oxanium', cursive;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+
+#navsys {
+    border: 3px solid white;
+    max-width: 30%;
+    text-align: center;
+    margin: auto;
+
+  
+    
+
+    
+}
+
+#navlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Oxanium', cursive;
+    text-shadow: -1px 1px 2px black;
+ 
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+#navlist li {
+   
+    padding: 30px;
+    color: black;
+    font-size: 30px;
+   
+
+
+    
+}
+
+#navlist li a {
+    text-decoration: none;
+    color: #1DB954
+    ;
+}
+
+#top-text{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Oxanium', cursive;
+    text-shadow: -1px 1px 2px #1DB954;
+}
+
+
+#user, #email, #phone{
+border-radius: 20px;
+min-width: 100%;
+font-size: 30px;
+margin-bottom: 30px;
+
+}
+textarea{
+    font-size: 20px;
+}
+#sub, #reset{
+    text-align: center;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: black;
+}
+#ftr{
+    font-family: 'Oxanium', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    
+}
+#icons img{
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 800px){
+    #navlist li a{
+        
+       
+        
+        
+    }
+    #navlist{
+        
+       
+    }
+
+
+    }

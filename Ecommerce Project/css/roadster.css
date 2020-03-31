@@ -1,0 +1,411 @@
+
+body, html{
+    padding: 0;
+    margin: 0 0 0 0px;
+    font-family: 'Oxanium', cursive;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+#prt1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1536617621572-1d5f1e6269a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo {
+    margin: 0 0 0 0px;
+    padding: 0;
+    color: white;
+    font-family: 'Oxanium', cursive;
+    padding-left: 20px;
+    display: inline;
+    font-family: 'Oxanium', cursive;
+    text-shadow: -1px 1px 2px black;
+}
+
+#navsys {
+    border: 3px solid white;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+  
+    justify-content: center;
+  
+   
+
+    
+}
+
+#navlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    text-decoration: none;
+
+    font-family: 'Oxanium', cursive;
+    text-shadow: -1px 1px 2px black;
+
+    
+}
+
+#navlist li {
+    display: flex;
+    padding: 30px;
+    color: white;
+    font-size: 30px;
+    justify-content: flex-end;
+    flex-direction: row;
+
+    
+}
+
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
+#bigtxt{
+    display: flex;
+    color: white;
+    font-family: 'Oxanium', cursive;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: 3px -3px 4px green;
+}
+
+
+
+#prt2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/3785441/pexels-photo-3785441.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260  ');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 0 0 0px;
+}
+
+#blk {
+width: 50%;
+height: 100%;
+background-color: black;
+margin: 0px;
+float: right;
+}
+
+#wht{
+ width: 50%;
+height: 100%;
+background-color: white;
+margin: 0px;
+float: left;    
+
+}
+
+#blk, #wht{
+    display: inline;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+}
+
+
+.container{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    
+
+}
+
+.container p {
+    font-family: 'Oxanium', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.effect{
+    color: red;
+}
+
+.effect-num{
+    color: green;
+}
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+#perf{
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 80px;
+    font-family: 'Oxanium', cursive;
+    font-weight: bolder;
+    text-shadow: 5px 2px 7px grey;
+}
+
+#perfhead{
+    max-height: 30%;
+}
+
+/* Section 3 */
+
+#prt3 {
+    height: 100vw;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+    max-height: 940px;
+
+
+}
+
+
+
+
+#container {
+    height: 75%;
+    width: 100%;
+  }
+
+  #inner-container{
+      width: 100%;
+      height: 100%;
+  }
+
+  #myVideo{
+      height: 100%;
+      object-fit: fill;
+  }
+
+  h1{
+      font-size: 25px;
+      font-weight: 100;
+  }
+
+  h2{
+      font-size: 35px;
+  }
+  
+  #desc{
+      width: 960px;
+      margin: 0 auto 0 auto;
+      font-family: 'Oxanium', cursive;
+      height: 55%;
+      
+  }
+
+ #roadster-desc__container{
+     width: 500px;
+ }
+
+ #roadster-desc__container, #flash-container{
+     display: inline-block;
+     padding: 20px;
+     height: 100%;
+ }
+
+ #button--ordernow{
+     color: black;
+     border: 3px solid black;
+     border-radius: 13px;
+    padding: 8px;
+    background-color:#1e0e33;
+ }
+
+ #button--ordernow{
+     text-align: center;
+     color: white;
+ }
+
+
+ /* video overlay */
+
+ .vl {
+    border-left: 2px solid white;
+    height: 80px;
+    text-align: center;
+    padding: 5px;
+  }
+
+  #overlay{
+      position: relative;
+      bottom: 200px;
+      display: flex;
+      
+      
+  }
+p #overlay--text_1 {
+    position: relative;
+    left: 540px;
+}
+ 
+#tag{
+     position: relative;
+     bottom: 70px;
+     left: 300px;
+    font-size: 50px;
+    
+    display:inline;
+  }
+
+  #spedo-logo{
+    position: relative;
+    bottom: 125px;
+    left: 90px;
+    height: 150px;
+   font-size: 30px;
+  }
+
+  .tag-2{
+    position: relative;
+    bottom: 40px;
+    left: 90px;
+   font-size: 30px;
+   
+ }
+
+ #overlay--text_2{
+     right: 50px;
+     position: relative;
+     font-size: 80px;
+     font-weight: bolder;
+ }
+
+ #overlay--text_3{
+     position: relative;
+     right: 50px;
+ }
+
+ #overlay p{
+     font-size: 25px;
+ }
+
+#footer{
+ 
+    
+    display: inline;
+    text-align: center;
+  
+  
+   
+
+    
+}
+.down-button{
+    background-color: black;
+}
+
+.down-button p {
+    border: 3px solid white;
+    border-radius: 18px;
+    font-size: 40px;
+    display: inline;
+    text-align: center;
+    background-color: black;
+    font-family: 'Oxanium', cursive;
+}
+#overlay--text_1{
+    position: relative;
+    right: 50px;
+}
+
+
+#wht-quote {
+    padding-top: 20px;
+    font-family: 'Oxanium', cursive;
+
+}
+
+#blk-head{
+    color: white;
+    text-align: center;
+    font-size: 44px;
+    padding-top: 40px;
+    font-family: 'Oxanium', cursive;
+    font-weight: bolder;
+    text-shadow: 2px 1px 3px blueviolet;
+
+    
+}
+
+@media screen and (max-width: 800px){
+    #prt1{
+        background-attachment: fixed;
+    }
+    * {
+        margin: auto;
+        padding: 0;
+        }
+
+        #navlist, #navlist li{
+            padding: 0;
+           
+        }
+
+        #body, html{
+            max-width: 800px;
+            margin: auto;
+        }
+
+        #pt2{
+            margin: auto;
+        }
+
+        #overlay{
+            margin: auto;
+            flex-wrap: wrap;
+        }
+}
+#res {
+    
+        color: palegreen;
+    
+}
+footer{
+    background-color: black;
+}
+
+#ftr{
+    font-family: 'Oxanium', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    
+}
+#icons img{
+    padding-right: 20px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }

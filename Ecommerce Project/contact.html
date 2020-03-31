@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" type="text/css" href="css/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+   
+    <ul id="navlist">
+        <li> <a id="rd" href ="/index.html">Home </a></li>
+        <li><a href ="stingray.html">2020 Stingray </a></li>
+        <li> <a href="order.html">Order </a> </li>
+        <li><a href="roadster.html">2020 Roadster </a></li>
+
+    </ul> 
+    <h1 id="top-text">Get in Touch!</h1>
+
+    <form id="contact-form" name="myForm" onsubmit = "return(validate());">
+    
+        
+            <fieldset>
+                <label for="user"> <input id="user" type="text" placeholder="Your Full Name"> </label>
+                <label for="email"> <input id="email" type="email" placeholder="Email Address Here"> </label>
+                <label for="phone"> <input id="phone" type="tel" placeholder="Phone Number (xxx-xxx-xxxx)"> </label>
+                <textarea placeholder="Type Your Message Here" rows="10" cols="152"> </textarea> <br>
+                <label for="sub"><input id="sub" type="submit"></label>
+                <label for="reset"><input id="reset" type="reset"></label>
+            </fieldset>    
+    
+    
+    </form>
+
+
+    <script src="contact.js"></script>
+
+
+    <footer>
+        <h1 id='ftr'> Follow Our Social's</h1>
+
+        <div id='icons'>
+            <img id='fb' src='icons/facebook.png' alt='facebook' height='100px' width='100px'>
+            <img id='twt' src='icons/twitter.svg' alt='twitter' height='100px' width='100px' >
+            <img id='ig' src='icons/instagram.png' alts= 'instagram' height='100px' width='100px' >
+        </div>
+
+
+    </footer>
+</body>
+</html>
