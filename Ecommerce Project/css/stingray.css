@@ -1,0 +1,224 @@
+
+body html{
+    padding: 0;
+    margin: 0 0 0 0px;
+    font-family: 'Oxanium', cursive;
+}
+
+#prt1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#logo {
+    margin: 0 0 0 0px;
+    padding: 0;
+   
+    font-family: 'Oxanium', cursive;
+    padding-left: 20px;
+    display: inline;
+    font-weight: bolder;
+    font-family: 'Oxanium', cursive;
+    text-shadow: -1px 1px 2px black;
+    
+}
+
+#navsys {
+    border: 3px solid white;
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    display: inline;
+    
+
+    
+}
+
+#navlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 40px;
+    text-decoration: none;
+    font-family: 'Oxanium', cursive;
+    text-shadow: -1px 1px 2px black;
+
+    
+
+    
+}
+
+#navlist li {
+    display: flex;
+    padding: 30px;
+    color: black;
+    font-size: 30px;
+    justify-content: flex-end;
+    flex-direction: row;
+
+    
+}
+
+
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+#bigtxt{
+    display: flex;
+    color: black;
+    font-family: 'Oxanium', cursive;
+    justify-content: center;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 4px yellow;
+}
+#down-button{
+    background-color: black;
+}
+
+#down-button p {
+    border: 3px solid white;
+    border-radius: 18px;
+    color: white;
+    font-size: 40px;
+    display: inline;
+    text-align: center;
+    background-color: black;
+    font-family: 'Oxanium', cursive;
+}
+
+/* Section 2*/
+
+body {
+    margin: 0;
+    padding: 0;
+ }
+#prt2{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+#outer-container{
+    height: 100%;
+    
+    margin: 0px;
+}
+
+#inner-container{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#myVideo{
+    display: inline-flex;
+    height: 100%;
+    object-fit: fill;
+    width: 70%;
+    margin: 0;
+}
+
+
+#side-info{
+    width: 30%;
+    float: right;
+    background-color: #f7faf9;
+    height: 100%;
+    margin: 0;
+    font-family: 'Oxanium', cursive;
+    
+}
+
+#head{
+    font-size: 25px;
+}
+
+#under{
+
+font-size: 40px;
+}
+
+#side-container{
+    margin-left: 30px;
+    line-height: .2em;
+    margin-right: 90px;
+    margin-top: 80px;
+}
+
+#sub-content{
+    margin: 0;
+    line-height: 1em;
+}
+
+#order-btn{
+    margin-top: 320px;
+    border: 4px solid black;
+    line-height: 2em;
+    border-radius: 18px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+
+#tesla-super{
+    margin-top: 70px;
+}
+
+#order-text{
+    color: palegreen;
+}
+
+
+/*  responsive design   */
+
+@media screen and (max-width: 800px){
+    #side-container {
+        margin-left: auto;
+        line-height: 2em;
+        margin-right: auto;
+        margin-top: auto;
+}
+}
+
+#ftr{
+    font-family: 'Oxanium', cursive;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+#icons{
+    display: flex;
+    justify-content: center;
+    
+}
+#icons img{
+    padding-right: 20px;
+}
+
+footer{
+    background-color: black;
+}
+* {  padding:0; box-sizing:border-box; }
