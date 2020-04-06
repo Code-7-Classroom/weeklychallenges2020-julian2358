@@ -1,4 +1,4 @@
-
+//on product button click rearange grid areas
 document.getElementById("product").addEventListener("click", function(){
     
     document.getElementById("div1t").style.gridArea = "3 / 3 / 4 / 4"; 
@@ -12,7 +12,7 @@ document.getElementById("product").addEventListener("click", function(){
     document.getElementById("div12t").style.gridArea = "2 / 1 / 3 / 2";
 
 });
-
+//on price button click rearange grid areas
 document.getElementById("price").addEventListener("click", function(){
     
     document.getElementById("div1t").style.gridArea = "2 / 2 / 3 / 3"; 

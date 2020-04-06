@@ -14,15 +14,18 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
+
+  // if you go over slides.length reset back to first index
   if (n > slides.length) {slideIndex = 1}
+
+// if you go under index 1 set slides index to the last slide 
   if (n < 1) {slideIndex = slides.length}
+
+  //itterate through slides and set display to none
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
+ //set display to block for current slide index
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  
 }
