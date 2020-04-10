@@ -1,4 +1,4 @@
-// VERY HARD: You are given coins of different denominations and a total amount of money amount.
+// VERY HARD: You are given a coins array of different denominations and a total amount of money amount.
 // Write a function to compute the fewest number of coins that you need to make up that amount. 
 // If that amount of money cannot be made up by any combination of the coins, return -1.
 // Hint:  Sudo code this problem. Focus on breaking the problem down into steps  Use functions, arrays and logical operators.  
@@ -35,14 +35,14 @@
 
   function veryHard(arr, amount){
     var largest;
-    var compare;
+    
     var counter = 0;
-    var oldamount;
+
     //itterate through coin array
     for (i = 0; i < arr.length; i++){
         
       largest = arr[i];
-      compare = arr[i];
+      
       
         
       // if the current coin is less than the amount
@@ -123,6 +123,6 @@ return 'the fewest possible moves is ' + counter;
   
 
   
-  console.log(veryHard([1, 20,90,7,36], 100));
+  console.log(veryHard([2], 3   ));
 
  // Input: coins = [1, 2, 5], amount = 11
