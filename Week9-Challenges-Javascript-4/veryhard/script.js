@@ -38,6 +38,15 @@
     
     var counter = 0;
 
+
+//the nested loops below will find the greatest element by looping through an array twice and comparing those instances against each other
+
+//exmaple (first itteration): [1],2,3,4,5   1,[2],3,4,5  
+//example (second itteration): [1],2,3,4,5  1,2,[3],4,5
+//example (thrid itteration): [1],2,3,4,5   1,2,3,[4],5 
+// 
+
+
     //itterate through coin array
     for (i = 0; i < arr.length; i++){
         
@@ -75,14 +84,21 @@
         continue;
     }
     
+    //increment the counter since were doing an opperation
     counter++;
     console.log('debugging: ' + 'currently opperating ' + amount  + ' -  ' + largest + ' and setting it equal to amount ' + 'the current counter value is at ' + counter);
     var num;
+
+    //the operation: subtract our greatest number from our amount
     amount = amount - largest;
-    //if we can still subtract from the new amount with our largest var
+    //if we can still subtract from the new amount with our largest var 
+
+    //rather than reiterating through the loop we will check if our current greatest number is still the greatest number
+
+
     if(largest <= amount) {
         console.log(largest + ' can still go into ' + amount)
-        //find hwo many times our element can go into the amount
+        //find hwo many times our greatest number can go into the amount 
         num = parseInt(amount / largest);
         console.log('it can go in ' + num + ' times')
         //add however many opperations we cut out to the counter
@@ -101,6 +117,8 @@
     }
 //checking for edge case: reach end of array and still not at total operations needed
 
+//reset the loop to see if the new greatest number is still in the array
+
    if (amount > 0) {
    
 
@@ -110,7 +128,7 @@
    }
 
 }
-//edgecase: was not solvable
+//edgecase: number needed was not found in loop in this case the problem is unsolvable and we will return -1
 if (amount > 0){
     return - 1;
 }
