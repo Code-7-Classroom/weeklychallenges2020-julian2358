@@ -17,7 +17,8 @@
 
 //sudo code
 
-// will need to itterate through array, possibly subtract from the amount with the goal of reaching 0 in as few moves as possible
+// will need to itterate through array, possibly subtract the greatest array element from the amount with the goal of reaching 0 in as few moves as possible
+//the greatest number will constantly change needs to be done on a loop
 // for i in arr
 // arr[i] = largest
 // if largest < amount
@@ -121,6 +122,7 @@
 
    if (amount > 0) {
    
+    console.log('debugging: we have reached the end of the array and have still not hit 0, looping back through array to search for a new greatest number')
 
        i = -1;
        n = 0; 
@@ -141,6 +143,6 @@ return 'the fewest possible moves is ' + counter;
   
 
   
-  console.log(veryHard([2], 3   ));
+  console.log(veryHard([1,2,5], 11 ));
 
  // Input: coins = [1, 2, 5], amount = 11
