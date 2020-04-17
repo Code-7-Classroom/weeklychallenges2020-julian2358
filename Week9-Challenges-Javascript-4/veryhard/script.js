@@ -33,7 +33,8 @@
 
 
 
-
+//3,1,5
+//11
   function veryHard(arr, amount){
     var largest;
     
@@ -143,6 +144,6 @@ return 'the fewest possible moves is ' + counter;
   
 
   
-  console.log(veryHard([1,2,5], 11 ));
+  console.log(veryHard([1,2,13,40], 21 ));
 
  // Input: coins = [1, 2, 5], amount = 11
