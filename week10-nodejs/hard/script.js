@@ -9,7 +9,7 @@ const PORT = process.env.port || 5000;
 
 let data = require('./employees.json')
 
-app.get('/test', (req, res) => {
+app.get('/', (req, res) => {
 
         res.send("hello world")
 
@@ -25,25 +25,15 @@ app.get('/employees', function(req, res){
 })
 
 app.get('/employees/:id', (req, res) => {
-    const sData = data.employees.find((employees) => {
-        console.log(employees.id)
 
-        return parseInt(req.param.id) === employees.id
-    })
+const employee = data.employees.find(c => c.id === parseInt(req.params.id));    
 
-    if(!sData){
-        res.status(404).send(`Couldn't find the student id`);
-    }
-   
-        res.send(sData);
-    
-})
+    if (!employee) res.status(404).send("Employee was not found")
+    res.send(employee);
+});
 
 
 
-app.get("/", (req, res) => {
-    res.send("Welcome to my website")
-})
 
 app.listen(PORT, () => {
     console.log(`server is running on ${PORT}`)
