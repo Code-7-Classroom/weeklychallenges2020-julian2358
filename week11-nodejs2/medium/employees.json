@@ -1,0 +1,73 @@
+{
+    "employees" :[
+        {
+            "name":"Austin",
+            "id": 1,
+            "salary": 10000000,
+            "job":"Back End Develper"
+        },
+        {
+
+            "name":"cody",
+            "id": 2,
+            "salary": 15000000,
+            "job": "CEO"
+        },
+        {
+            "name":"wilson",
+            "id": 3,
+            "salary": 200000000,
+            "job":"Real Estate Investor"
+
+        },
+	  {
+            "name":"tony",
+            "id": 4,
+            "salary": 132000,
+            "job":"SEO Engineer"
+
+        },
+	  {
+            "name":"gabe",
+            "id": 5,
+            "salary": 240000,
+            "job":"UX Designer"
+
+        },
+	  {
+            "name":"chad",
+            "id": 6,
+            "salary": 130000,
+            "job":"Full Stack Developer"
+
+        },
+	  {
+            "name":"wilson",
+            "id": 7,
+            "salary": 750343,
+            "job":"Junior Web Developer"
+
+        },
+	  {
+            "name":"wilson",
+            "id": 8,
+            "salary": 200000000,
+            "job":"Real Estate Investor"
+
+        },
+	  {
+            "name":"wilson",
+            "id": 9,
+            "salary": 200000000,
+            "job":"Real Estate Investor"
+
+        },
+	  {
+            "name":"wilson",
+            "id": 10,
+            "salary": 200000000,
+            "job":"Real Estate Investor"
+
+        }
+    ]
+}
